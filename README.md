@@ -9,4 +9,4 @@ python app.py
 
 after installing flask and opencv.
 
-Then just open http://0.0.0.0:5000
+Then just open http://0.0.0.0:8080
