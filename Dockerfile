@@ -1,7 +1,7 @@
 FROM ubuntu
 LABEL maintainer="blackd0t@protonmail.com"
 RUN apt-get update -y --fix-missing
-RUN apt-get install -y python3.6 python3-pip python-pip python-dev build-essential
+RUN apt-get install -y python3.6 python3-pip python3-pip python-dev build-essential
 RUN mkdir /app
 WORKDIR /app
 COPY . /app/
