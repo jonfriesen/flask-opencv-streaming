@@ -1,4 +1,4 @@
-FROM 3.6-bullseye
+FROM python:3.6-bullseye
 RUN apt-get update -y --fix-missing --allow-releaseinfo-change
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y python3.6 python3-pip python3-pip python-dev build-essential libgl1-mesa-glx libsm6 libxext6 libglib2.0-0
 RUN mkdir /app
